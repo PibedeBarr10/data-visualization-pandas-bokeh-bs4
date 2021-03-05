@@ -78,5 +78,5 @@ def plot(df):
 
     # Show plot on screen and save it to file
     show(p)
-    output_file("PL.html", title="Premier League - difference between goals and xG")
+    output_file("data/Premier_League_goals_and_xG_difference.html", title="Premier League - difference between goals and xG")
     save(p)

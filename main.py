@@ -1,6 +1,6 @@
-from web_scraping import get_data
-from data_processing import convert_data
-from visualization import plot
+from project.web_scraping import get_data
+from project.data_processing import convert_data
+from project.visualization import plot
 
 def main():
     url = 'https://understat.com/main/getPlayersStats/'
