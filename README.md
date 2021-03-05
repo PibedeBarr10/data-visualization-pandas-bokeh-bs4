@@ -14,7 +14,7 @@ This application visualize difference between xG and goals of best players on th
 </p>
 
 ### How application do it?
-* send POST request to [Understat.com](understat.com) and gets data from API (requests library)
+* send POST request to [Understat.com](https://understat.com) and gets data from API (requests library)
 * converting response to JSON object (requests library)
 * conversion data types, calculating difference between xG and goals and sorting data (Pandas)
 * visualization data (Bokeh)
@@ -22,6 +22,6 @@ This application visualize difference between xG and goals of best players on th
 ## Technologies
 Application was built with:
 * Python
-    * requests library (web scraping data from [Understat.com](understat.com))
+    * requests library (web scraping data from [Understat.com](https://understat.com))
     * Pandas (data analysis)
     * Bokeh (creating plot and save it to .html file)
